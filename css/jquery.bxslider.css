@@ -99,8 +99,9 @@
 }
 
 .bx-wrapper .bx-next {
-	right: -30px;
+	right: 0px;
 	background: url("img/bxslider-img/i-arr-next.png") no-repeat;
+	background-position: right;
 }
 
 .bx-wrapper .bx-controls-direction a {
@@ -186,51 +187,23 @@
 }
 
 @media (max-width: 1380px) {
-	.bx-wrapper .bx-prev {
-		left: 0px;
-	}
 
-	.bx-wrapper .bx-next {
-		left: 0px;
-	}
-}
 
 @media screen and (max-width: 991px) {
-	.bx-wrapper {
-		margin: 0 auto 60px;
-		top: 0;
-	}
 
-	.bx-wrapper .bx-controls-direction a {
-	    top: 50%;
-	    margin-top: -25px;
-	}
-}
 
 @media screen and (max-width: 767px) {
+	.bx-viewport {
+		height: auto;
+	}
+
 	.bx-wrapper {
-		margin: 0 auto 0px;
+		padding-top: 20px;
+		margin-bottom: 0px;
 	}
 }
+
 
 @media screen and (max-width: 550px) {
-	.bx-wrapper .bx-prev {
-		background-size: 60%;
-		background-position: left;
-	}
 
-	.bx-wrapper .bx-next {
-		background-size: 60%;
-		background-position: right;
-	}
-}
 
-@-moz-document url-prefix() {
-
-	.bx-wrapper {
-		position: relative;
-		display: block;
-		border:1px solid green;
-		width: 100%;
-	}
-}

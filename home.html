@@ -20,10 +20,57 @@
 	<body>
 		<header>
 			<div class="container">
+
+				<div id="modal" class="modal fade">
+					<div class="modal-body">
+						<div class="row">
+							<div class="left-side">
+								<img class="close" data-dismiss="modal" src="data/modal-ico.png" alt="">
+								<img class="modal-logo" src="data/Logo.png" alt="">
+								<span>SAVE<sup>$</sup> 10</span>
+								<p>SOME PROMO TEXT</p>
+								<div class="modal-reward">
+									<img src="data/modal-reward.png" alt="">
+									<p>Lorem ipsum ipsum</p>
+									<img src="data/modal-reward.png" alt="">
+									<p>Lorem ipsum ipsum</p>
+									<img src="data/modal-reward.png" alt="">
+									<p>Lorem ipsum ipsum</p>
+								</div>
+							</div>
+							<div class="right-side">
+								<ul class="nav nav-tabs">
+								  <li class="active"><a href="#tab1" data-toggle="tab">LOG IN</a></li>
+								  <li><a href="#tab2" data-toggle="tab">SIGN UP</a></li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="tab1">
+										<span>If you want to participiate in turnament</span>
+										<a class="tab-link" href="javascript:void(0);">Click here</a>
+										<a class="facebook-link" href="javascript:void(0);">LOG IN WITH FACEBOOK</a>
+										<p class="center">We won’t post without your permission.</p>
+							    	  	<div class="form-group">
+							    		    <input class="form-control" placeholder="E-mail" name="email" type="text">
+							    		</div>
+							    		<div class="form-group">
+							    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
+							    			<a class="tab-link-p" href="javascript:void(0);">Forgot Password?</a>	
+							    		</div>
+							    		<input class="btn btn-lg btn-success btn-block" type="submit" value="LOG IN">
+									</div>
+									<div class="tab-pane" id="tab2">
+									
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<div class="clear">
 					<img class="logo" src="data/Logo.png" alt="">
 					<div class="log-set">
-						<a href="javascript:void(0)">LOG IN</a>
+						<a href="#modal" data-toggle="modal">LOG IN</a>
 						<a href="javascript:void(0);"><i class="fa fa-trophy"></i>Want to participate in turnament?</a>
 					</div>
 				</div>	
@@ -52,8 +99,8 @@
 							<li class="real-link"><a href="#">AU COMMUNITY</a></li>
 							<li class="real-link"><a href="#">CONTACT AU</a></li>
 							<li class="real-link"><a href="#">ABOUT AU</a></li>
-							<li class="real-link"><input type="text" class="form-control"></li>
-							<li class="real-link"><a href="javascript:void(0);"><i class="fa fa-search"></i></a></li>
+							<li class="real-link search-box"><input type="text" class="form-control"></li>
+							<li class="real-link search-box"><a href="javascript:void(0);"><i class="fa fa-search"></i></a></li>
 						</ul>
 				    </div><!-- /.navbar-collapse -->
 				  </div><!-- /.container-fluid -->
@@ -76,28 +123,28 @@
 					</a></li>
 				</ul>
 				<div class="event-info row">
-					<div class="col-md-2">
+					<div class="col-sm-2">
 						<i class="fa fa-calendar fa-2x"></i>
 						<div>
 							<a href="javascript:void(0);">DATE</a><br>
 							<span>July 23-24, 2016</span>
 						</div>
 					</div>
-					<div class="col-md-5">
+					<div class="col-sm-5">
 						<i class="fa fa-map-marker fa-2x"></i>
 						<div>
 							<a href="javascript:void(0);">LOCATION</a><br>
 							<span>Queen Elizabeth Olympic Park, London E20 3HB, UK</span>
 						</div>
 					</div>
-					<div class="col-md-2">
+					<div class="col-sm-2">
 						<i class="fa fa-users fa-2x"></i>
 						<div>
 							<a href="javascript:void(0);">REMANING</a><br>
 							<span>245 Tickets</span>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-sm-3">
 						<i class="fa fa-trophy fa-2x"></i>
 						<div>
 							<a href="javascript:void(0);">EVENT</a><br>
@@ -120,8 +167,8 @@
 					            <span class="icon-bar"></span>
 					    	</button>
 					    </div>
+					    <img src="data/logo-nav.png" alt="">
 					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-					        <img src="data/logo-nav.png" alt="">
 					        <ul class="nav nav-pills navbar-nav">
 								<li class="real-link"><a href="#">AU WEEKEND</a></li>
 								<li class="dropdown">
@@ -179,14 +226,12 @@
 					<img src="data/au_community-img.jpg" alt="">
 				</div>
 				<div class=" insta-head"><i class="fa fa-instagram fa-4x"></i><a href="javascript:void(0);">INSTAGRAM</a></div>
-				<div class="clear">
+				<div class="inst-set clear center">
 					<div class="photo-inst"><a href="javascript:vodi(0);"><img src="data/image01.jpg" alt=""></a></div>
 					<div class="photo-inst"><a href="javascript:vodi(0);"><img src="data/image02.jpg" alt=""></a></div>
 					<div class="photo-inst"><a href="javascript:vodi(0);"><img src="data/image03.jpg" alt=""></a></div>
 					<div class="photo-inst"><a href="javascript:vodi(0);"><img src="data/image04.jpg" alt=""></a></div>
 					<div class="photo-inst"><a href="javascript:vodi(0);"><img src="data/image05.jpg" alt=""></a></div>
-				</div>
-				<div class="clear">
 					<div class="photo-inst"><a href="javascript:vodi(0);"><img src="data/image06.jpg" alt=""></a></div>
 					<div class="photo-inst"><a href="javascript:vodi(0);"><img src="data/image07.jpg" alt=""></a></div>
 					<div class="photo-inst"><a href="javascript:vodi(0);"><img src="data/image08.jpg" alt=""></a></div>
@@ -194,17 +239,21 @@
 					<div class="photo-inst"><a href="javascript:vodi(0);"><img src="data/image10.jpg" alt=""></a></div>
 				</div>
 				<div class="support clear">
-					<a href="tel:80081-80121">80081 80121</a>
-					<a href="mailto:support&#64;afrounites.com">support&#64;afrounites.com</a>
-					<form class="form-inline">
-						<div class="form-group">
-						    <span>Subscribe To Newsletter&#8594;</span>
-						    <input type="email" class="form-control" id="email">
-						</div>
-						<div class="form-group">
-							<button type="submit" class="btn btn-default">Submit</button>
-						</div>	
-					</form>
+					<div class=" left-support clear">
+						<a href="tel:80081-80121">80081 80121</a>
+						<a href="mailto:support&#64;afrounites.com">support&#64;afrounites.com</a>
+					</div>
+					<div class="right-support clear">
+						<form class="form-inline">
+							<div class="form-group">
+							    <span>Subscribe To Newsletter&#8594;</span>
+							    <input type="email" class="form-control" id="email">
+							</div>
+							<div class="form-group">
+								<button type="submit" class="btn btn-default">Submit</button>
+							</div>	
+						</form>
+					</div>
 				</div>
 			</div><!-- END of .container -->
 		</div><!-- END of .content -->
@@ -212,7 +261,7 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 col-logo">
+					<div class="col-sm-5 col-xs-4 col-logo">
 						<a class="footer-log" href="javascript:void(0);"><img src="css/img/footer-logo.png" alt=""></a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Ut enim ad minim veniam. incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p><br>
 						<p>Copyright &copy; 2016 all rights reserved</p>
@@ -223,21 +272,21 @@
 							<a href="javascript:void(0);"><i class="fa fa-youtube-square fa-2x"></i></a>
 						</div>
 					</div>
-					<div class="col-md-2 col-weekend">
+					<div class="col-xs-3 col-weekend">
 						<h5>WEEKEND</h5>
 						<a href="javascript:void(0);">News</a>
 						<a href="javascript:void(0);">Calendar page</a>
 						<h5>COMMUNUTY</h5>
 						<h5>ABOUT US</h5>
 					</div>
-					<div class="col-md-2 col-sports">
+					<div class="col-xs-2 col-sports">
 						<h5>SPORTS</h5>
 						<a href="javascript:void(0);">Basketball men</a>
 						<a href="javascript:void(0);">Basket women</a>
 						<a href="javascript:void(0);">Foorballl</a>
 						<a href="javascript:void(0);">Football women</a>
 					</div>
-					<div class="col-md-2 col-contact">
+					<div class="col-xs-2 col-contact">
 						<h5>CONTACT</h5>
 						<a href="javascript:void(0);">Mr A Smith</a>
 						<a href="javascript:void(0);">3 High Street</a>
