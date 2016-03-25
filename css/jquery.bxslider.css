@@ -205,5 +205,21 @@
 
 
 @media screen and (max-width: 550px) {
+	.bx-controls-direction {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.bx-controls-direction {
+		display: none;
+	}
+
+	.bx-wrapper {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
 
 

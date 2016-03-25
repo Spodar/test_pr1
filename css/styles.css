@@ -519,16 +519,11 @@ h6 {
 
 	.event-info a {
 		color: #ff7200;
-		
 	}
 
 	.event-info i {
 		vertical-align: top;
 		padding-right: 10px;
-	}
-
-	.event-info span {
-		
 	}
 
 	.nav-fixed .form-control {
@@ -1041,7 +1036,7 @@ h6 {
 	}
 
 	.social-link a {
-		padding-left: 30px;
+		padding-left: 26px;
 	}
 
 	.col-contact a,
@@ -1096,6 +1091,10 @@ h6 {
 
 }
 @media screen and (max-width: 1199px) {
+
+	.event-info a {
+		font-size: 17px;
+	}
 
 	.container-fluid {
 		padding: 0;
@@ -1220,6 +1219,24 @@ h6 {
 }
 
 @media screen and (max-width: 767px) {
+
+	.social-link a {
+		padding-left: 14px;
+	}
+
+	.event-info i {
+		float: left; 
+	}
+
+	.event-info a {
+		float: left; 
+		font-size: 12px;
+	}
+
+	.event-info span {
+		float: left; 
+		font-size: 10px;
+	}
 
 	header .modal .modal-body {
 		max-width: 400px;
@@ -1406,16 +1423,312 @@ h6 {
 	 footer .col-contact {
 	 	width: auto;
 	 }
+
+	 .content .top-text h5 {
+	 	font-size: 16px;
+	 }
+	 .content .top-text h4 {
+	 	font-size: 30px;
+	 }
 }
 
 @media screen and (max-width: 550px) {
-	
+
+	header .logo {
+		max-width: 40%;
+	}
+
+	header .log-set {
+		display: none;
+	}
+
+	header .logo {
+		position: absolute;
+		width: 20%;
+		z-index: 999;
+		left: 40%;
+		padding: 15px 0 0 0;
+	}
+
+	.navbar-default .navbar-toggle {
+		float: left;
+		margin: 15px;
+		border: none;
+	}
+
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+		border: none;
+	}
+
+	.navbar-default .search-box {
+		right: 0;
+		padding-right: 15px;
+		position: fixed;
+
+	}
+
+	header .navbar-default {
+		background-color: #000000;
+		color: #ffffff;
+		border: none;
+		width: 100%;
+
+	}
+
+	.nav-fixed {
+		display: none;
+	}
+
+	header .form-control {
+		border: none;
+	}
+
+	.navbar-default .navbar-nav .search-box:last-of-type {
+		margin-top: 5px;
+	}
+
+	.slider h2 {
+		font-size: 18px;
+		padding: 3px 10px;
+	}
+
+	.slider h1 {
+		font-size: 20px;
+		padding: 10px 10px;
+	}
+
+	.slider h3 {
+		font-size: 12px;
+		padding: 5px 10px;
+	}
+
+	.content .top-text h5:first-child {
+		padding-top: 20px;
+		padding-left: 0px;
+	}
+
+	.content .top-text h4 {
+		font-size: 27px;
+	}
+
+	.content .top-text h5:last-child {
+		padding-right: 0px;
+		padding-bottom: 20px;
+	}
+
+	.content iframe {
+		padding-bottom: 30px;
+		width: 320px;
+		height: 312px;
+	}
+
+	.content .au-community {
+		margin-top: 30px;
+	}
+
+	.content .insta-head {
+		float: left;
+		padding-left: 15px;
+	}
+
+	.content .insta-head i {
+		font-size: 40px;
+	}
+
+	.content .photo-inst img {
+		width: 100%;
+		height: auto;
+	}
+
+	.content .left-support {
+		padding-top: 10px;
+	}
+
+	.content .support {
+		background-position: 60px 20px;
+	}
+
+	.content .support a {
+		padding: 0px;
+		text-align: left;
+		float: none;
+		display: inline-block;
+		margin-left: 30%;
+		font-size: 20px;
+	}
+
+	.content .support .form-control {
+		max-width: 250px;
+		float: left;
+		padding-top: 11px;
+		margin-left: 20px;
+	}
+
+	.content .support button,
+	.content .support .btn {
+		padding: 6px 15px;
+	}
+
+	.content .support span {
+		font-size: 15px;
+		padding-left: 20px;
+	}
+
+	.content .form-group {
+		margin-bottom: 0px;
+	}
+
+	footer .col-logo {
+		width: 100%;
+	}
+
+	footer .footer-log {
+		padding: 40px 0 20px 0;
+		text-align: center;
+		display: block;
+	}
+
+	.col-logo p {
+		margin: 0 auto;
+		text-align: left;
+		max-width: 70%;
+	}
+
+	footer .social-link {
+		padding: 20px 0 0 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	footer .social-link a {
+		padding: 0px 20px;
+		text-align: center;
+	}
+
+	.col-contact, 
+	.col-sports, 
+	.col-weekend {
+		padding-top: 20px;
+	}
+
+	.navbar-header  {
+		margin: 0;
+	}
+
+	header {
+		background-image: url(img/small-bg.png);
+	}
+
+	.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.event-info {
+	    padding: 10px 4px;
+	    margin-left: 15px;
+	    margin-right: 15px;
+
+	}
+
+	header .navbar-default {
+		width: auto;
+	}
+
+
+	header .container {
+		padding: 0;
+	}
+
+	.col-contact,
+	.col-sports,
+	.col-weekend {
+		width: 50%;
+		padding-left: 25px;
+	}
 }
 
-@media screen and (max-width: 480px) {
-	
-}
+@media screen and (max-width: 380px) {
 
+	.modal .modal-open {
+		display: none;
+	}
+
+	.content iframe {
+		max-width: 260px;
+		height: 200px;
+	}
+
+	.event-info div {
+		width: 50%;
+		padding: 5px;
+	}
+
+	.content .top-text h4 {
+		font-size: 17px;
+	}
+
+	.content .top-text h5 {
+		font-size: 10px;
+	}
+
+	.content .top-text h5:first-child {
+		padding-left: 5px;
+	}
+
+	.au-weekend h2, 
+	.au-sports h2 {
+		font-size: 25px;
+	}
+
+	.au-weekend a, 
+	.au-sports a {
+		font-size: 12px;
+	}
+
+	.content .presenters h2 {
+		font-size: 16px;
+	}
+
+	.content .presenters h6 {
+		font-size: 12px;
+	}
+
+	.content .au-community div {
+		padding-top: 5%;
+	}
+
+	.content .au-community h2 {
+		font-size: 16px;
+	}
+
+	.content .au-community a {
+		font-size: 10px;
+	}
+
+	.content .support {
+	    background-position: 10px 20px;
+	}
+
+	.content .support a {
+		font-size: 14px;
+	}
+
+	.content .support .form-control {
+		max-width: 120px;
+		padding: 1px 5px;
+		font-size: 14px;
+	}
+
+	.content .support button, .content .support .btn {
+		padding: 5px 10px;
+	}
+
+	footer .social-link a {
+		padding: 0 10px;
+	}
+}
 /* ----------------------------------------------------------------------------------- */
 
 

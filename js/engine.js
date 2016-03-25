@@ -1,5 +1,14 @@
 $(document).ready(function() {
-	$('.slider').bxSlider();
+	$('.slider').bxSlider({
+        maxSlides: 1,
+        minSlides: 1,
+        moveSlides: 1,
+        auto: true,
+        pause: 3500,
+        slideMargin: 0,
+        responsive: true,
+    });
+
 });
 
 $(document).ready(function() {
@@ -15,5 +24,8 @@ $(document).ready(function() {
 });	
 
 $('document').ready(function(){
+
+    width = $(window).width();
+    if (width <= 400) {$('#modal').modal('false');};
     $('#modal').modal();
 });
