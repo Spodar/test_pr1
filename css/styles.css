@@ -13,6 +13,17 @@ Description:
 
 @font-face {
 	font-family: 'Panton';
+	src: url('fonts/Panton/Panton-Light.eot');
+	src: url('fonts/Panton/Panton-Light.eot') format('embedded-opentype'),
+		 url('fonts/Panton/Panton-Light.woff') format('woff'),
+		 url('fonts/Panton/Panton-Light.ttf') format('truetype'),
+		 url('fonts/Panton/Panton-Light.svg#Panton') format('svg');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'Panton';
 	src: url('fonts/Panton/Panton-Regular.eot');
 	src: url('fonts/Panton/Panton-Regular.eot') format('embedded-opentype'),
 		 url('fonts/Panton/Panton-Regular.woff') format('woff'),
@@ -66,16 +77,6 @@ Description:
 	font-weight: 800;
 }
 
-@font-face {
-	font-family: 'Panton';
-	src: url('fonts/Panton/Panton-Light.eot');
-	src: url('fonts/Panton/Panton-Light.eot') format('embedded-opentype'),
-		 url('fonts/Panton/Panton-Light.woff') format('woff'),
-		 url('fonts/Panton/Panton-Light.ttf') format('truetype'),
-		 url('fonts/Panton/Panton-Light.svg#Panton') format('svg');
-	font-style: normal;
-	font-weight: 200;
-}
 /* BEGIN of CSS RESET */
 
 html,
@@ -637,7 +638,6 @@ h6 {
 
 	header .modal-reward {
 		display: inline-block;
-		margin-top: 0 auto;
 		padding: 25px 0 24px 0;
 		margin-left: -42px;
 	}
@@ -1427,6 +1427,7 @@ h6 {
 	 .content .top-text h5 {
 	 	font-size: 16px;
 	 }
+	 
 	 .content .top-text h4 {
 	 	font-size: 30px;
 	 }
@@ -1465,7 +1466,6 @@ h6 {
 		right: 0;
 		padding-right: 15px;
 		position: fixed;
-
 	}
 
 	header .navbar-default {
@@ -1473,7 +1473,6 @@ h6 {
 		color: #ffffff;
 		border: none;
 		width: 100%;
-
 	}
 
 	.nav-fixed {
